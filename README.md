@@ -1,6 +1,3 @@
-# velsindianfoods
-velsindianfoods products
-
 <!DOCTYPE html>
 2
 <html lang="en">
