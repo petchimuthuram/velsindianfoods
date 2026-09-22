@@ -1,257 +1,130 @@
 <!DOCTYPE html>
-2
 <html lang="en">
-3
 <head>
-4
 <meta charset="UTF-8">
-5
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-6
 <title>Velsa Indian Foods</title>
-7
  
-8
 <style>
-9
- 
-10
 *{
 11
 margin:0;
-12
 padding:0;
-13
 box-sizing:border-box;
-14
 }
-15
  
-16
 body{
-17
 font-family:Arial, sans-serif;
-18
 background:#f8f8f8;
-19
 }
-20
  
-21
 header{
-22
 background:#0d7a20;
-23
 color:white;
-24
 padding:20px;
-25
 }
-26
- 
-27
+  
 header h1{
-28
 text-align:center;
-29
 font-size:40px;
-30
 }
-31
- 
-32
+
 header p{
-33
 text-align:center;
-34
 margin-top:10px;
-35
 }
-36
- 
-37
+
 nav{
-38
 background:#333;
-39
 padding:15px;
-40
 text-align:center;
-41
 }
-42
- 
-43
+
 nav a{
-44
 color:white;
-45
 text-decoration:none;
-46
 margin:15px;
-47
 font-weight:bold;
-48
 }
-49
- 
-50
+
 nav a:hover{
-51
 color:orange;
-52
 }
-53
  
-54
 .hero{
-55
 text-align:center;
-56
 padding:80px 20px;
-57
 background:white;
-58
 }
-59
- 
-60
+
 .hero h2{
-61
 font-size:38px;
-62
 color:#0d7a20;
-63
 }
-64
  
-65
 .hero p{
-66
 margin-top:15px;
-67
 font-size:18px;
-68
 }
-69
- 
-70
+
 .btn{
-71
 display:inline-block;
-72
 background:#0d7a20;
-73
 color:white;
-74
 padding:12px 25px;
-75
 margin-top:20px;
-76
 text-decoration:none;
-77
 border-radius:5px;
-78
 }
-79
- 
-80
+
 .products{
-81
 padding:50px;
-82
 text-align:center;
-83
 }
-84
- 
-85
+
 .products h2{
-86
 color:#0d7a20;
-87
 margin-bottom:30px;
-88
 }
-89
- 
-90
+
 .product-container{
-91
 display:flex;
-92
 flex-wrap:wrap;
-93
 justify-content:center;
-94
 gap:20px;
-95
 }
-96
- 
-97
+
 .card{
-98
 background:white;
-99
 width:280px;
-100
 padding:20px;
-101
 border-radius:10px;
-102
 box-shadow:0px 0px 10px #ccc;
-103
 }
-104
- 
-105
+
 .card img{
-106
 width:100%;
-107
 height:180px;
-108
 object-fit:cover;
-109
 border-radius:10px;
-110
 }
-111
- 
-112
+
 .card h3{
-113
 margin-top:15px;
-114
 }
-115
- 
-116
+
 .btn-buy{
-117
 background:orange;
-118
 color:white;
-119
 border:none;
-120
 padding:10px 20px;
-121
 margin-top:15px;
-122
 border-radius:5px;
-123
 cursor:pointer;
-124
 }
-125
- 
-126
+
 .about{
-127
 background:#fff;
-128
 padding:60px;
 129
 text-align:center;
@@ -583,101 +456,46 @@ Velsa Indian Foods provides high-quality food products including
 Coconut Oil, Groundnut Oil, Rice, Pulses, and other grocery items.
 293
 Our mission is to deliver healthy and trusted food products to every home.
-294
 </p>
-295
- 
-296
+
 </section>
-297
- 
-298
 <section class="login" id="login">
-299
- 
-300
+  
 <div class="login-box">
-301
- 
-302
 <h2>Customer Login</h2>
-303
- 
-304
+  
 <input type="text"
-305
 id="mobile"
-306
 placeholder="Enter Mobile Number">
-307
- 
-308
+
 <button onclick="sendOTP()">
-309
 Send OTP
-310
 </button>
-311
- 
-312
 <br><br>
-313
- 
-314
+
 <input type="text"
-315
 id="otp"
-316
 placeholder="Enter OTP">
-317
- 
-318
+
 <button onclick="verifyOTP()">
-319
 Verify OTP & Login
-320
 </button>
-321
- 
-322
 </div>
-323
- 
-324
 </section>
-325
- 
-326
 <section class="contact" id="contact">
-327
- 
-328
 <h2>Contact Us</h2>
-329
- 
-330
+
 <p><b>Velsa Indian Foods</b></p>
-331
 <p>Email: info@velsindianfoods.com</p>
-332
 <p>Phone: +91 9876543210</p>
-333
 <p>Tamil Nadu, India</p>
-334
- 
-335
+  
 </section>
-336
- 
-337
+
 <footer>
-338
 © 2026 Velsa Indian Foods. All Rights Reserved.
-339
 </footer>
-340
- 
-341
+  
 </body>
 342
 </html>
