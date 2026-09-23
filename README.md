@@ -325,7 +325,7 @@ Verify OTP & Login
 
 <p><b>Velsa Indian Foods</b></p>
 <p>Email: info@velsindianfoods.com</p>
-<p>Phone: +91 9876543210</p>
+<p>Phone: +91 9597339774</p>
 <p>Tamil Nadu, India</p>
   
 </section>
